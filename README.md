@@ -8,23 +8,23 @@ For this project, the purpose was to take the raw data and transform it into tid
 
 Here are the steps in that process which are written in run_analysis.r
 
-Data set 1
-1. Install all needed r packages
-2. Download the data and place in the working directory
-3. Read in the variable data from the test and training sets, and merge them together into one file "y"
-4. Name the variables in X by reading in the features.txt file and naming the files
-5. Subset "X" by the feature names that only have the "mean" and the "standard deviation" measures.
-6. Read in the labels from the test and training sets, and merge them together into one file "x"
-7. Read in the subjects from the test and training sets, and merge them together into one file "subject"
-8. Merge "subject","y", and "x" into one file called "data"
-9. Read in the activity labels.
-10. Use the descriptive activity labels to name the activities in the data set, "data", to arrive at data set 1 for project
+Data set 1 steps
+Install all needed r packages
+Download the data and place in the working directory
+Read in the variable data from the test and training sets, and merge them together into one file "y"
+Name the variables in X by reading in the features.txt file and naming the files
+Subset "X" by the feature names that only have the "mean" and the "standard deviation" measures.
+Read in the labels from the test and training sets, and merge them together into one file "x"
+Read in the subjects from the test and training sets, and merge them together into one file "subject"
+Merge "subject","y", and "x" into one file called "data"
+Read in the activity labels.
+Use the descriptive activity labels to name the activities in the data set, "data", to arrive at data set 1 for project
 
-Second data set, which has averages of variables from data set 1 by each subject and activity
-1. Creates an interaction term to split the data set by subject and activity in a list
-2. Once the data are split and put into a list, loop through the columns of the list components and take the averages of each columns
-3. Name the variables appropriately 
-4. Transpose the data to ensure that the variables are in the columns and the observations are in the rows.
-5. Create variables for each subject by the activity performed.
-6. Produce a final data set and write it out to a .txt file. 
+Data set 2 steps, which has averages of variables from data set 1 by each subject and activity
+Creates an interaction term to split the data set by subject and activity in a list
+Once the data are split and put into a list, loop through the columns of the list components and take the averages of each columns
+Name the variables appropriately 
+Transpose the data to ensure that the variables are in the columns and the observations are in the rows.
+Create variables for each subject by the activity performed.
+Produce a final data set and write it out to a .txt file. 
  
