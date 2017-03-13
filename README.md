@@ -4,7 +4,9 @@ Data were obtained for this project from the Human Activity Recognition Using Sm
 
 The dataset consists of data collected from the accelerometers from the Samsung Galaxy S smartphone. The purpose in gathering this data was to capture 3-axial linear acceleration and 3-axial angular velocity for 30 subjects who each performed six distinct physical activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, and LAYING.
 
-For this project, the purpose was to take the raw data and transform it into tidy data sets, one dataset which only includes variables with summary measures of means and standard deviations, and a second dataset which contains only the averages of the summary measures included in the first data set. 
+For this project, the purpose was to take the raw data and transform it into tidy data sets, one dataset which only includes variables with summary measures of means and standard deviations, and a second dataset which contains only the averages of the summary measures included in the first data set by subject and by activity.
+
+For more information on each variable, please refer to the CodeBook.md file included in this repository
 
 Here are the steps in that process which are written in run_analysis.r
 
