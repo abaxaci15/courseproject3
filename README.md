@@ -29,5 +29,5 @@ Here are the steps in that process which are written in run_analysis.r
 <li>Name the variables appropriately</li> 
 <li>Transpose the data to ensure that the variables are in the columns and the observations are in the rows</li>
 <li>Create variables for each subject by the activity performed</li>
-<li>Produce a final data set and write it out to a .txt file, titled "tidyfinal.txt"</li>
+<li>The above steps will produce data set 2 and write it out to a .txt file, titled "tidyfinal.txt"</li>
  
