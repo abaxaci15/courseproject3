@@ -9,6 +9,7 @@ For this project, the purpose was to take the raw data and transform it into tid
 Here are the steps in that process which are written in run_analysis.r
 
 <b>Data set 1 steps </b> <br>
+<li>
 Install all needed r packages <br>
 Download the data and place in the working directory <br>
 Read in the variable data from the test and training sets, and merge them together into one file "y"
@@ -18,7 +19,7 @@ Read in the labels from the test and training sets, and merge them together into
 Read in the subjects from the test and training sets, and merge them together into one file "subject"
 Merge "subject","y", and "x" into one file called "data"
 Read in the activity labels.
-Use the descriptive activity labels to name the activities in the data set, "data", to arrive at data set 1 for project
+Use the descriptive activity labels to name the activities in the data set, "data", to arrive at data set 1 for project</li>
 
 Data set 2 steps, which has averages of variables from data set 1 by each subject and activity
 Creates an interaction term to split the data set by subject and activity in a list
