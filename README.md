@@ -21,7 +21,7 @@ Here are the steps in that process which are written in run_analysis.r
 <li>merge "subject","y", and "x" into one file called "data"</li>
 <li>Read in the activity labels file</li>
 <li>Use the descriptive activity labels to label the activities in the data set</li>
-<li>After these steps, the final data set 1 is "data"</li>
+<li>The above steps will produce the final data set 1, called "data"</li>
 
 <b>Steps for data set 2, which has averages of variables from data set 1 by each subject and activity</b> <br>
 <li>Creates an interaction term to split the data set by subject and activity in a list</li>
