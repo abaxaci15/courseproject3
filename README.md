@@ -8,9 +8,9 @@ For this project, the purpose was to take the raw data and transform it into tid
 
 Here are the steps in that process which are written in run_analysis.r
 
-Data set 1 steps
-Install all needed r packages
-Download the data and place in the working directory
+<b>Data set 1 steps </b> <br>
+Install all needed r packages <br>
+Download the data and place in the working directory <br>
 Read in the variable data from the test and training sets, and merge them together into one file "y"
 Name the variables in X by reading in the features.txt file and naming the files
 Subset "X" by the feature names that only have the "mean" and the "standard deviation" measures.
