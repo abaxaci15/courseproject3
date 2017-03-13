@@ -27,3 +27,4 @@ Second data set, which has averages of variables from data set 1 by each subject
 4. Transpose the data to ensure that the variables are in the columns and the observations are in the rows.
 5. Create variables for each subject by the activity performed.
 6. Produce a final data set and write it out to a .txt file. 
+ 
