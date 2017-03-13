@@ -10,7 +10,7 @@ For more information on each variable, please refer to the CodeBook.md file incl
 
 Here are the steps in that process which are written in run_analysis.r
 
-<b>Steps for Data set 1, which takes raw data set, merges that data, and extrates only the variables with summary measures of the mean and standard deviation</b> <br>
+<b>Steps for Data set 1, which takes raw data set, merges that data, and extracts only the variables with summary measures of the mean and standard deviation</b> <br>
 <li>Install all needed r packages</li>
 <li>Download the data and place in the working directory</li>
 <li>Read in the variable data from the test and training sets, and merge them together into one file called "x"</li>
