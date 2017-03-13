@@ -1,6 +1,6 @@
 This codebook describes the variables included in the dataset: <br>
 
-Study Design
+<b>Study Design</b>
 <br>
 Data were taken from Experiment: Human Activity Recognition Using Smartphones Dataset at : https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip <br>
 Data was then manipulated to extract variables with summary measures of mean and standard deviations for final dataset<br>
@@ -8,7 +8,7 @@ Data was then manipulated to extract variables with summary measures of mean and
 
 Units: All variables are in units of hertz (Hz)<br>
 
-Codebook Variables:
+<b>Codebook Variables:</b>
 
 <li>subject : ID of the person who participated in experiment</li>
 <li>activity : six physical activity each subject performed while wearing smartphone device: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING</li>
