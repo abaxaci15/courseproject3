@@ -8,24 +8,24 @@ For this project, the purpose was to take the raw data and transform it into tid
 
 Here are the steps in that process which are written in run_analysis.r
 
-<b>Data set 1 steps </b> <br>
-<li>
-Install all needed r packages
+<b>Steps for Data set 1, which takes raw data set, merges that data, and extrates only the variables with summary measures of the mean and standard deviation</b> <br>
+<li>Install all needed r packages</li>
 <li>Download the data and place in the working directory</li>
-<li>Read in the variable data from the test and training sets, and merge them together into one file "y"</li>
-<li>Name the variables in X by reading in the features.txt file and naming the files</li>
-<li>Subset "X" by the feature names that only have the "mean" and the "standard deviation" measures</li>
-<li>Read in the labels from the test and training sets, and merge them together into one file "x"</li>
-<li>Read in the subjects from the test and training sets, and merge them together into one file "subject"</li>
-<li>Merge "subject","y", and "x" into one file called "data"</li>
-<li>Read in the activity labels</li>
-<li>Use the descriptive activity labels to name the activities in the data set, "data", to arrive at data set 1 for project</li>
+<li>Read in the variable data from the test and training sets, and merge them together into one file called "x"</li>
+<li>Name the variables in "x" by reading in the features.txt file and taking the features names to "x", thereby labeling the data set with descriptive variables names</li>
+<li>Subset "x" by the feature names that only have the "mean" and the "standard deviation" measures</li>
+<li>Read in the labels from the test and training sets, and merge them together into one file called "y"</li>
+<li>Read in the subjects from the test and training sets, and merge them together into one file called "subject"</li>
+<li>merge "subject","y", and "x" into one file called "data"</li>
+<li>Read in the activity labels file</li>
+<li>Use the descriptive activity labels to label the activities in the data set</li>
+<li>After these steps, the final data set 1 is "data"</li>
 
-<b>Data set 2 steps, which has averages of variables from data set 1 by each subject and activity</b> <br>
+<b>Steps for data set 2, which has averages of variables from data set 1 by each subject and activity</b> <br>
 <li>Creates an interaction term to split the data set by subject and activity in a list</li>
 <li>Once the data are split and put into a list, loop through the columns of the list components and take the averages of each columns</li>
 <li>Name the variables appropriately</li> 
 <li>Transpose the data to ensure that the variables are in the columns and the observations are in the rows</li>
 <li>Create variables for each subject by the activity performed</li>
-<li>Produce a final data set and write it out to a .txt file</li>
+<li>Produce a final data set and write it out to a .txt file, titled "tidyfinal.txt"</li>
  
